@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title><%= title %></title>
+    <link rel="icon" type="image/x-icon" href="/images/favicon.png">
+    <link rel="stylesheet" href="/stylesheets/home.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/noty/3.1.4/noty.min.css"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/noty/3.1.4/noty.min.js"></script>
+  </head>
+  <body>
+
+    <h1>Welcome To Placement Portal</h1>
+    <ul class="nav-links">
+      <% if(employee){ %>
+      <li><a href="/profile"><%=employee.name %></a></li>
+      <li class="forward"><a href="/employees/sign-out">Sing Out</a></li>
+      <% } else{%>
+      <li class="center"><a href="/employees/sign-up">Sign Up</a></li>
+      <% } %>
+      <li class="upward"><a href="/students/">Students</a></li>
+      <li class="forward"><a href="/interviews/">Interviews</a></li>
+      <li class="forward"><a href="/jobs/fetch-jobs">Jobs</a></li>
+      <li class="forward"><a href="/students/">Download CSV</a></li>
+    </ul>
+    
+  </body>
+
+  <!-- javascripts -->
+  <script>
+    <% if(flash.success && flash.success.length > 0){ %>
+                new Noty({
+                theme:'sunset',
+                text: '<h3><%= flash.success%></h3>',
+                type:'success',
+                layout:'topRight',
+                timeout:3000
+            }).show();
+            <% } %>
+
+            <% if(flash.error && flash.error.length > 0){ %>
+              new Noty({
+                theme:'sunset',
+                text: '<%= flash.error%>',
+                type:'error',
+                layout:'topRight',
+                timeout:3000
+              }).show();
+            <% } %>
+  </script>
+</html>

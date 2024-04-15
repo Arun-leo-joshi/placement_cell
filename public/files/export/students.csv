@@ -1,0 +1,8 @@
+Student_id,Student_Name,Student_College,Student_Status,Student_DSAFinalScore,Student_WebDFinalScore,Student_ReactFinalScore,Student_InterviewDate,Student_InterviewCompany,Student_InterviewResult
+64c2261f4783e732619678cb,Rohit Kalamkar,Pune University,not_placed,100,100,300,Mon Jul 31 2023 05:30:00 GMT+0530 (India Standard Time),Google,PASS
+64c2261f4783e732619678cb,Rohit Kalamkar,Pune University,not_placed,100,100,300,Fri Aug 25 2023 05:30:00 GMT+0530 (India Standard Time),Microsoft,FAIL
+64c2261f4783e732619678cb,Rohit Kalamkar,Pune University,not_placed,100,100,300,Fri Aug 25 2023 05:30:00 GMT+0530 (India Standard Time),Microsoft,On Hold
+64c226404783e732619678d0,Rushab Tak,Pune University,not_placed,120,25,300,Mon Jul 31 2023 05:30:00 GMT+0530 (India Standard Time),Google,PASS
+64c226574783e732619678d5,Sahil Sayyad,Pune University,not_placed,100,100,300,Fri Aug 25 2023 05:30:00 GMT+0530 (India Standard Time),Microsoft,FAIL
+64c226574783e732619678d5,Sahil Sayyad,Pune University,not_placed,100,100,300,Fri Aug 25 2023 05:30:00 GMT+0530 (India Standard Time),Microsoft,On Hold
+64c2266e4783e732619678da,Om Shinde ,Pune University,not_placed,120,90,300,Mon Jul 31 2023 05:30:00 GMT+0530 (India Standard Time),Google,PASS
