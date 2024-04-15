@@ -97,7 +97,7 @@ use]. <b>
 ## Author
 
 
-- Name: Sahil Sayyad
-- GitHub: <a><b>[https://github.com/Arun-leo-joshi](https://github.com/Sahil-Sayyad/Placement_Cell)</a></b>
+- Name: Arun Joshi
+- GitHub: <a><b>[https://github.com/Arun-leo-joshi](https://github.com/Arun-leo-joshi/Placement_Cell)</a></b>
 - Email: 
 - Website: 
