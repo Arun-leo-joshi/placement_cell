@@ -31,7 +31,7 @@ use]. <b>
 
 ## Getting Started
 -  <b> 1. &nbsp; Clone Git Repo  </b>
-    <br>----<i> git clone https://github.com/Sahil-Sayyad/Placement_Cell.git </i><br><br>
+    <br>----<i> git clone https://github.com/Arun-leo-joshi/placement_cell.git </i><br><br>
 -  <b> 2.  &nbsp;Install NPM dependencies </b>
    <br>----<i> npm install</i> <br><br>
 -  <b> 2.  &nbsp;Set Up .env file  </b>
